@@ -1,6 +1,7 @@
-a = []
-a['b'] = "B";
-a['a'] = 'A';
-console.log(a);
-a.splice(,1);
-console.log(a);
+a = [];
+b = {a:'b'};
+console.log(a.a);
+if(b.a){
+  console.log(b.a);
+}
+
